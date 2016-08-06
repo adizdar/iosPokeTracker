@@ -4,6 +4,10 @@ platform :ios, '8.0'
 
 # Add Application pods here
 
+pod 'AFNetworking', '~> 3.0'
+pod 'Mantle'
+pod 'MBProgressHUD'
+
 target :unit_tests, :exclusive => true do
   link_with 'pgo'
   pod 'Specta'
